@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# 🌱 SoilSense | AI-Powered Soil Quality Detector
 
-## Project info
+An intelligent web application designed to analyze soil quality and provide actionable agricultural insights through image recognition.
 
-**URL**: https://lovable.dev/projects/aa6a432a-cc16-4c5f-a14c-0bf68e9fe962
+---
 
-## How can I edit this code?
+## 📖 About
+SoilSense is a modern web application built to make soil testing fast, accessible, and user-friendly. By simply uploading a clear photo of a soil sample, the system simulates an AI-driven analysis to provide instant insights into crucial soil health metrics—such as pH levels, moisture content, fertility, and organic matter. It bridges the gap between complex laboratory testing and everyday farming by offering tailored recommendations for soil improvement and suitable crop selection.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Key Features
+* **Instant Image Analysis:** Upload soil images to instantly preview and receive simulated AI-based quality assessments.
+* **Comprehensive Metrics:** Displays critical soil parameters including pH, fertility, moisture, and organic matter using intuitive visual indicators.
+* **Smart Recommendations:** Generates dynamic, actionable advice for soil treatment (e.g., adding compost, liming) based on the analysis results.
+* **Crop Suggestion Engine:** Suggests suitable crops optimized for the specific soil condition.
+* **Responsive Modern UI:** A clean, accessible, and fast interface built with React and Tailwind CSS.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/aa6a432a-cc16-4c5f-a14c-0bf68e9fe962) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📸 Web Interface/Screenshots
 
-**Use your preferred IDE**
+| Homepage & Interactive Upload | Understanding Soil Quality |
+| :---: | :---: |
+| <img width="300" alt="homepage" src="https://github.com/user-attachments/assets/939d355c-0231-4a07-b7f4-5ae79969dd21" /> | <img width="300" alt="upload_interface" src="https://github.com/user-attachments/assets/c700c5de-dbb1-40a3-b87f-e05f97c8f530" /> |
+| **Analysis Results & Recommendations** | **Educational Resources & Footer** |
+| <img width="300" alt="result_metrics" src="https://github.com/user-attachments/assets/44620f2e-deb6-42b9-9d25-84ae55f3b8f4" /> | <img width="300" alt="footer" src="https://github.com/user-attachments/assets/ca01b32e-be0a-43d3-9a3b-bcf5a57842ce" /> |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 💻 Tech Stack
+* **Frontend Framework:** React with TypeScript
+* **Styling & UI:** Tailwind CSS + shadcn/ui
+* **Build Tool:** Vite
+* **Data Format:** JSON (Mock API for simulated analysis)
+* **Future Scope:** Python Flask / Node.js API for real Machine Learning model integration
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 👥 Project Team
+* **Vinod.N** - Team Leader & Lead Developer
+* **Rudra Pratap Singh** - Core Team Member
+* **Prince Kumar Singh** - Core Team Member
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**Project Guide:** Dr. M.S Nidhya, Associate Professor, School of Computer Applications, Dayananda Sagar University.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## ©️ Copyright & Notice
+**SoilSense is an original project designed and developed by students at Dayananda Sagar University.**
 
-**Edit a file directly in GitHub**
+> **Development Notice:** The current iteration of this application utilizes structured mock data to simulate machine learning inference for demonstration purposes. The architecture is fully modular and designed for future integration with a live Python backend and trained convolutional neural networks (CNNs).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/aa6a432a-cc16-4c5f-a14c-0bf68e9fe962) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is for educational and portfolio purposes.
